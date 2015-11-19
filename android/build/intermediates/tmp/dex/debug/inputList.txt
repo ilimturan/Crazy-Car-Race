@@ -1,0 +1,10 @@
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/classes/debug
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-326b85b30a1400de7417d2f56ad8ce4c5db22ed4.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/core-1.0-ad1764d0051b6dbc5aacd1639a83b7570659cf85.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.5.2-de463e4e9e4f7972e7e96cd2ee832c4874ebf436.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.5.2-9be20193a56627b893ec5ea39e992ac61e4e0662.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e0ac90d86a9f49d0bd1f923f8b29066f0c41a185.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/classes-8f161e976b1f71143f0d2e0ff6a18ae93e834a6d.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/classes-a54ce40c320a5ebba6d2bc3b74fdab32d6da7005.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/gdx-1.5.2-32f0e721c27f28b2e8300718d0ca7b00317dfd5a.jar
+/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/build/intermediates/pre-dexed/debug/classes-e59a55435c90a3125c5ad87ca372ff20f26f3e70.jar

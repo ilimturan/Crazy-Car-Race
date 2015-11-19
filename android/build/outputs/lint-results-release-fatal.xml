@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.0.2">
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment inner class should be static (com.zargidi.ccar.android.GameLauncherActivity.GameFragment)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:
+*Every* fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public class GameFragment extends AndroidFragmentApplication implements MainGame.MyGameCallback"
+        errorLine2="                 ~~~~~~~~~~~~">
+        <location
+            file="/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/src/com/zargidi/ccar/android/GameLauncherActivity.java"
+            line="53"
+            column="18"/>
+    </issue>
+
+</issues>

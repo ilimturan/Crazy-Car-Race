@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".GameOverActivity"
+                android:background="#010101">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:id="@+id/txt_game_over_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+
+                android:textColor="#FFFFFF"
+                android:text="@string/game_over_title"
+                android:gravity="center|center_vertical|center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_score_current"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/score_current_title"
+                android:gravity="center|center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/label_score_current"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:text="0"
+                android:gravity="center|center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_score_high"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/score_high_title"
+                android:gravity="center|center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/label_score_high"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:text="0"
+                android:gravity="center|center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonReplay"
+
+                android:background="@drawable/button_replay"
+                android:layout_margin="20dp"
+                android:onClick="menuButtonClicked"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="5dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBackToLevel"
+                android:background="@drawable/button_back_to_level"
+                android:layout_margin="5dp"
+                android:onClick="menuButtonClicked"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonPlayMarketStar"
+
+                android:background="@drawable/star"
+                android:layout_margin="5dp"
+                android:onClick="menuButtonClicked"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonPlayMarketHeart"
+
+                android:background="@drawable/love"
+                android:layout_margin="5dp"
+                android:onClick="menuButtonClicked"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/macbookpro/Desktop/apps/android/games/libgdx/CrazyCarRace/android/res/layout/activity_game_over.xml -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crazy Car Race</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="main_menu_title">CRAZY CAR RACE</string>
+    <string name="copy_right">2015 ZARGIDI GAMES</string>
+    <string name="game_over_title">GAME OVER</string>
+    <string name="score_current_title">SCORE</string>
+    <string name="score_high_title">BEST SCORE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_game_over">Game Over</string>
+    <string name="title_activity_how_to_play">How To Play </string>
+    <string name="google_play_services_version">6</string>
+    <string name="title_activity_select_level">SelectLevelActivity</string>
+    <string name="select_level_title">SELECT LEVEL</string>
+    <string name="level_text_slow">SLOW</string>
+    <string name="level_text_normal">NORMAL</string>
+    <string name="level_text_fast">FAST</string>
+
+</resources>
